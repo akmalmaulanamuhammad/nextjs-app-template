@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Absensi</string>
+    
+    <!-- Common -->
+    <string name="loading">Loading…</string>
+    <string name="error_occurred">An error occurred</string>
+    <string name="retry">Retry</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    
+    <!-- Authentication -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="logout">Logout</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="already_have_account">Already have an account?</string>
+    
+    <!-- Profile -->
+    <string name="profile">Profile</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="employee_id">Employee ID</string>
+    <string name="change_password">Change Password</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="office_location">Office Location</string>
+    
+    <!-- Attendance -->
+    <string name="attendance">Attendance</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="retake_photo">Retake Photo</string>
+    <string name="submit_attendance">Submit Attendance</string>
+    <string name="attendance_success">Attendance recorded successfully</string>
+    <string name="attendance_failed">Failed to record attendance</string>
+    <string name="outside_office_area">You are outside the office area</string>
+    <string name="outside_working_hours">Outside working hours</string>
+    <string name="camera_permission_required">Camera permission is required</string>
+    <string name="location_permission_required">Location permission is required</string>
+    
+    <!-- History -->
+    <string name="history">Attendance History</string>
+    <string name="no_history">No attendance records found</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="location">Location</string>
+    <string name="status">Status</string>
+    
+    <!-- Notifications -->
+    <string name="channel_name">Attendance Notifications</string>
+    <string name="channel_description">Notifications for attendance reminders and updates</string>
+    <string name="attendance_reminder">Time to mark your attendance</string>
+    
+    <!-- Errors -->
+    <string name="error_network">Network error. Please check your connection</string>
+    <string name="error_invalid_credentials">Invalid email or password</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_invalid_email">Invalid email address</string>
+    <string name="error_password_short">Password must be at least 6 characters</string>
+    <string name="error_passwords_dont_match">Passwords don\'t match</string>
+    <string name="error_location_disabled">Please enable location services</string>
+    <string name="error_camera_unavailable">Camera is unavailable</string>
+    
+    <!-- Permissions -->
+    <string name="permission_rationale">This permission is needed for core functionality</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for core functionality.</string>
+    <string name="settings">Settings</string>
+    
+    <!-- Office Locations -->
+    <string name="select_office">Select Office Location</string>
+    <string name="current_office">Current Office</string>
+    <string name="change_office">Change Office</string>
+</resources>
