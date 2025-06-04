@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_attendance">
+
+    <fragment
+        android:id="@+id/navigation_attendance"
+        android:name="com.example.absensi.ui.attendance.AttendanceFragment"
+        android:label="Attendance">
+        <action
+            android:id="@+id/action_attendance_to_history"
+            app:destination="@id/navigation_history" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_history"
+        android:name="com.example.absensi.ui.history.HistoryFragment"
+        android:label="History">
+        <action
+            android:id="@+id/action_history_to_attendance"
+            app:destination="@id/navigation_attendance" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.absensi.ui.profile.ProfileFragment"
+        android:label="Profile">
+        <action
+            android:id="@+id/action_profile_to_attendance"
+            app:destination="@id/navigation_attendance" />
+        <action
+            android:id="@+id/action_profile_to_history"
+            app:destination="@id/navigation_history" />
+    </fragment>
+
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.example.absensi.ui.auth.LoginActivity"
+        android:label="Login" />
+
+</navigation>
